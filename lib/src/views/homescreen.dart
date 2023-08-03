@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../configs/constants.dart';
 import 'about/about_section.dart';
+import 'contact/contact_section.dart';
 import 'feedback/feedback_section.dart';
 import 'recent_work/recent_work_section.dart';
 import 'service/service_section.dart';
@@ -22,8 +23,8 @@ class HomeScreen extends StatelessWidget {
             ServiceSection(),
             RecentWorkSection(),
             FeedbackSection(),
-            // SizedBox(height: kDefaultPadding),
-            // ContactSection(),
+            SizedBox(height: kDefaultPadding),
+            ContactSection(),
           ],
         ),
       ),

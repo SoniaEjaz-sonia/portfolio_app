@@ -69,7 +69,7 @@ class _FeedbackCardState extends State<FeedbackCard> {
             const Text(
               "Ronald Thompson",
               style: TextStyle(fontWeight: FontWeight.bold),
-            )
+            ),
           ],
         ),
       ),
