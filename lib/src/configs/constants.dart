@@ -11,6 +11,12 @@ final BoxShadow kDefaultShadow = BoxShadow(
   color: const Color(0xFF0700B1).withOpacity(0.15),
 );
 
+final kDefaultCardShadow = BoxShadow(
+  offset: const Offset(0, 20),
+  blurRadius: 50,
+  color: Colors.black.withOpacity(0.1),
+);
+
 const kDefaultInputDecorationTheme = InputDecorationTheme(
   border: kDefaultOutlineInputBorder,
   enabledBorder: kDefaultOutlineInputBorder,
