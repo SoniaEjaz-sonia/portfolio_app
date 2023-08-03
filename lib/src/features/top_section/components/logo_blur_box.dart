@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../../core/constants/images.dart';
 import 'glass_content.dart';
 
 class LogoAndBlurBox extends StatelessWidget {
@@ -12,7 +13,7 @@ class LogoAndBlurBox extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Image.asset("assets/images/Logo.png"),
+        Image.asset(imgLogo),
         const Spacer(),
         GlassContent(size: size),
         const Spacer(flex: 3),

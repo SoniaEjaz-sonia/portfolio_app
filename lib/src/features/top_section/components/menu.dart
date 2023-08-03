@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import '../../../core/constants/constants.dart';
+import '../../../core/constants/images.dart';
+import '../../../core/constants/strings.dart';
 
 class Menu extends StatefulWidget {
   const Menu({Key? key}) : super(key: key);
@@ -12,7 +14,7 @@ class Menu extends StatefulWidget {
 class _MenuState extends State<Menu> {
   int selectedIndex = 0;
   int hoverIndex = 0;
-  List<String> menuItems = ["Home", "About", "Services", "Portfolio", "Testimonial", "Contact"];
+  List<String> menuItems = [strHome, strAbout, strServices, strPortfolio, strTestimonial, strContact];
 
   @override
   Widget build(BuildContext context) {
@@ -65,7 +67,7 @@ class _MenuState extends State<Menu> {
                 left: 0,
                 right: 0,
                 bottom: selectedIndex != index && hoverIndex == index ? -20 : -32,
-                child: Image.asset("assets/images/Hover.png"),
+                child: Image.asset(imgHover),
               ),
               // Select
               AnimatedPositioned(
@@ -73,7 +75,7 @@ class _MenuState extends State<Menu> {
                 left: 0,
                 right: 0,
                 bottom: selectedIndex == index ? -2 : -32,
-                child: Image.asset("assets/images/Hover.png"),
+                child: Image.asset(imgHover),
               ),
             ],
           ),

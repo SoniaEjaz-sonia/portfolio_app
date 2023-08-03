@@ -38,7 +38,7 @@ class GlassContent extends StatelessWidget {
                 ),
               ),
               Text(
-                "Creative Design Director",
+                "Passionate Flutter Developer",
                 style: Theme.of(context).textTheme.headlineSmall!.copyWith(color: Colors.white),
               )
             ],
