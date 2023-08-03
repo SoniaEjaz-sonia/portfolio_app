@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../configs/constants.dart';
+import '../core/constants/constants.dart';
 
 class DefaultButton extends StatelessWidget {
   const DefaultButton({Key? key, required this.imageSrc, required this.text, required this.press}) : super(key: key);

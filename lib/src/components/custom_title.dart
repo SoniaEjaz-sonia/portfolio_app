@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../configs/constants.dart';
+import '../core/constants/constants.dart';
 
 class CustomTitle extends StatelessWidget {
   const CustomTitle({

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../configs/constants.dart';
+import '../core/constants/constants.dart';
 import 'default_button.dart';
 
 class CustomCard extends StatelessWidget {
