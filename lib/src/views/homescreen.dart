@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../configs/constants.dart';
+import 'about/about_section.dart';
 import 'top_section/top_section.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -14,7 +15,7 @@ class HomeScreen extends StatelessWidget {
           children: [
             TopSection(),
             SizedBox(height: kDefaultPadding * 2),
-            // AboutSection(),
+            AboutSection(),
             // ServiceSection(),
             // RecentWorkSection(),
             // FeedbackSection(),
