@@ -2,7 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-import '../../configs/constants.dart';
+import '../../../configs/constants.dart';
 
 class GlassContent extends StatelessWidget {
   const GlassContent({Key? key, required this.size}) : super(key: key);

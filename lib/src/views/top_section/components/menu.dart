@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../configs/constants.dart';
+import '../../../configs/constants.dart';
 
 class Menu extends StatefulWidget {
   const Menu({Key? key}) : super(key: key);

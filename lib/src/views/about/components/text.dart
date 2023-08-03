@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../configs/constants.dart';
+import '../../../configs/constants.dart';
 
 class AboutSectionText extends StatelessWidget {
   const AboutSectionText({Key? key, required this.text}) : super(key: key);

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../configs/constants.dart';
+import '../../../configs/constants.dart';
 
 class AboutTextWithSign extends StatelessWidget {
   const AboutTextWithSign({Key? key}) : super(key: key);

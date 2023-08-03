@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import '../../components/default_button.dart';
 import '../../components/outlined_button.dart';
 import '../../configs/constants.dart';
-import 'experience_card.dart';
-import 'text.dart';
-import 'text_with_sign.dart';
+import 'components/experience_card.dart';
+import 'components/text.dart';
+import 'components/text_with_sign.dart';
 
 class AboutSection extends StatelessWidget {
   const AboutSection({Key? key}) : super(key: key);

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../configs/constants.dart';
+import '../../../configs/constants.dart';
 
 class ExperienceCard extends StatelessWidget {
   const ExperienceCard({Key? key, required this.numOfExp}) : super(key: key);
