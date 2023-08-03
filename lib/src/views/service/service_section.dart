@@ -23,7 +23,7 @@ class ServiceSection extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: List.generate(services.length, (index) => ServiceCard(index: index)),
-          )
+          ),
         ],
       ),
     );
